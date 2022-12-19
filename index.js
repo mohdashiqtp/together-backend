@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded({
 // enable cors
 
 app.use(cors({
-    origin : 'http://localhost:3000',
+    origin : 'https://together-mern.onrender.com/',
     credentials : true
 }))
 
